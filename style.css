@@ -10,7 +10,7 @@ body {
 
 /* Narandžaste ivice digitrona */
 .calculator {
-  background-color: orange;
+  background-color: rgb(240, 207, 22);
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -51,19 +51,19 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 12px; /* Blago zaobljeni */
-  background-color: green; /* Inicijalno zeleni */
-  color: white;
+  background-color: rgb(36, 219, 36); /* Inicijalno zeleni */
+  color: rgb(228, 219, 219);
   cursor: pointer;
   transition: background-color 0.1s;
 }
 
 /* Roze boja samo dok je dugme pritisnuto */
 button:active {
-  background-color: pink;
+  background-color: rgb(236, 66, 94);
   color: black;
 }
 
-/* Posebna boja za jednako ako želiš, ali po zahtevu su svi zeleni */
 #equal {
   grid-row: span 1;
+  background-color: rgb(87, 11, 228);
 }
